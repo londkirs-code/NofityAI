@@ -4,6 +4,7 @@ on:
   push:
     branches: [main]
     paths:
+      - 'README.md'
       - 'app/**'
       - 'gradle/**'
       - '*.gradle.kts'
