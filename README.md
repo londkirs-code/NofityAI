@@ -20,3 +20,8 @@ View your app in AI Studio: https://ai.studio/apps/20f1c90f-2054-46a1-a1b0-9b310
 5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
 6. Run the app on an emulator or physical device
 7. If you have already published your app in AI Studio, please [request upload key reset](https://support.google.com/googleplay/android-developer/answer/9842756#zippy=%2Crequest-an-upload-key-reset) in Google Play Console.
+
+
+## APK builds
+
+The latest Android debug APK is published automatically by GitHub Actions after changes to the app or build configuration. See the [Actions](https://github.com/londkirs-code/NofityAI/actions) page for build status and artifacts.
